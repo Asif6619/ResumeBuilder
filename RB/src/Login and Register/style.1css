@@ -1,0 +1,69 @@
+/* Color of the links BEFORE scroll */
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: #fff;
+}
+
+
+/* Color of the links AFTER scroll */
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: #fff;
+}
+
+
+/* Color of the navbar AFTER scroll */
+
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+#intro {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+}
+
+.mask-custom {
+    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+}
+
+.btn {
+    background: #42c9f2;
+}
+
+#regisration {
+    margin-left: 300px;
+    width: 200px;
+    height: auto;
+    display: flex;
+}
+
+#form {
+    background-color: thistle;
+    padding: 100px 40px 175px 40px;
+}
+
+.left {
+    margin-top: 50px;
+    height: 500px;
+    width: 45%;
+    background: transparent;
+}
+
+.right {
+    margin-top: 0px;
+    height: 500px;
+    width: 45%;
+}
